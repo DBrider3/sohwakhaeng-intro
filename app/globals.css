@@ -1,8 +1,78 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@layer base {
+  :root {
+    --background: 155 40% 85%; /* 연한 민트/녹색 */
+    --foreground: 155 20% 20%;
+
+    --card: 155 40% 90%;
+    --card-foreground: 155 20% 20%;
+
+    --popover: 155 40% 90%;
+    --popover-foreground: 155 20% 20%;
+
+    --primary: 155 40% 60%;
+    --primary-foreground: 155 20% 98%;
+
+    --secondary: 155 30% 80%;
+    --secondary-foreground: 155 20% 20%;
+
+    --muted: 155 30% 80%;
+    --muted-foreground: 155 20% 40%;
+
+    --accent: 155 30% 80%;
+    --accent-foreground: 155 20% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 155 20% 98%;
+
+    --border: 155 30% 80%;
+    --input: 155 30% 80%;
+    --ring: 155 40% 60%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 155 20% 20%;
+    --foreground: 155 40% 85%;
+
+    --card: 155 20% 25%;
+    --card-foreground: 155 40% 85%;
+
+    --popover: 155 20% 25%;
+    --popover-foreground: 155 40% 85%;
+
+    --primary: 155 40% 85%;
+    --primary-foreground: 155 20% 20%;
+
+    --secondary: 155 20% 30%;
+    --secondary-foreground: 155 40% 85%;
+
+    --muted: 155 20% 30%;
+    --muted-foreground: 155 40% 60%;
+
+    --accent: 155 20% 30%;
+    --accent-foreground: 155 40% 85%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 155 40% 85%;
+
+    --border: 155 20% 30%;
+    --input: 155 20% 30%;
+    --ring: 155 40% 85%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }
 
 @theme inline {

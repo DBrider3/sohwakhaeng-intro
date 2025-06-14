@@ -1,103 +1,58 @@
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Sparkles, Calendar, CheckCircle } from "lucide-react";
 
-export default function Home() {
+export default function LandingPage() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen bg-green-100 py-12 px-4 sm:px-8 lg:px-24">
+      <div className="max-w-4xl mx-auto text-center space-y-6">
+        <Image src="/sohwakhaeng-main.png" alt="소확행 소개" width={400} height={300} className="mx-auto rounded-xl mb-4" />
+        <br></br>
+        <h1 className="text-4xl font-bold text-green-700">[소확행💘] 소소하지만 확실한, 행복한 만남 💕</h1>
+        <p className="text-lg text-green-800">2025년 6월 한정 초특가 이벤트 진행 중!</p>
+        <Card className="bg-white shadow-xl rounded-2xl border-0">
+          <CardContent className="p-6 space-y-4">
+            <h2 className="text-2xl font-semibold text-green-600">🎉 첫 매칭 단 1,000원!</h2>
+            <p className="text-green-700">(※ 매칭 후 카카오톡 교환 시에만 결제)</p>
+            <ul className="text-left list-disc list-inside space-y-2">
+              <li><b>성비 철저 관리</b> + 얼굴/전신/명함 사진 통한 신원 인증</li>
+              <li><b>매칭 확정 후 결제</b>로 불필요한 비용 부담 없음</li>
+              <li><b>전문직 회원 다수</b>: 의사, 변호사, 대기업, 아나운서 등</li>
+              <li><b>결혼정보회사보다 합리적</b> – 1회 매칭 2만원 → <b>이벤트가 1천원!</b></li>
+            </ul>
+            <div className="bg-green-200 p-4 rounded-xl">
+              <p className="text-green-800 font-medium flex items-center justify-center">
+                <Calendar className="w-5 h-5 mr-2" /> 이벤트 기간: 2025년 6월 1일 ~ 30일
+              </p>
+            </div>
+          </CardContent>
+        </Card>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <div className="mt-10">
+          <h3 className="text-xl font-semibold text-green-600 mb-2">📷 등록 전 준비물</h3>
+          <ul className="text-green-800 space-y-1">
+            <li><CheckCircle className="inline w-4 h-4 text-green-600 mr-2" /> 본인 얼굴 사진 1장</li>
+            <li><CheckCircle className="inline w-4 h-4 text-green-600 mr-2" /> 전신 사진 1장</li>
+            <li><CheckCircle className="inline w-4 h-4 text-green-600 mr-2" /> 명함 사진 1장</li>
+          </ul>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        <div className="mt-10">
+          <h3 className="text-xl font-semibold text-green-600 mb-2">👩‍⚕️👨‍💼 활동 중인 회원</h3>
+          <p className="text-green-800">의사 · 변호사 · 회계사 · 대기업 · 스튜어디스 · 아나운서 · 무용과 · 필라테스 강사 등</p>
+        </div>
+
+        <div className="mt-10">
+          <a href="https://forms.gle/dwxcGpjtgzNdYoF47" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 text-lg rounded-xl">
+              <Sparkles className="mr-2 w-5 h-5" /> 지금 바로 등록하기
+            </Button>
+          </a>
+          <p className="mt-2 text-sm text-green-700">10분이면 등록 끝! 소확행에서 새로운 인연을 만나보세요 🌿</p>
+        </div>
+      </div>
     </div>
   );
 }
