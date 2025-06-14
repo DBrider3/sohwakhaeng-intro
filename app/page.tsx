@@ -20,7 +20,7 @@ export default function LandingPage() {
               <li><b>성비 철저 관리</b> + 얼굴/전신/명함 사진 통한 신원 인증</li>
               <li><b>매칭 확정 후 결제</b>로 불필요한 비용 부담 없음</li>
               <li><b>전문직 회원 다수</b>: 의사, 변호사, 대기업, 아나운서 등</li>
-              <li><b>결혼정보회사보다 합리적</b> – 1회 매칭 2만원 → <b>이벤트가 1천원!</b></li>
+              <li><b>결혼정보회사보다 합리적</b> – 1회 매칭 2만원 → <b>이벤트 1회 무료!</b></li>
             </ul>
             <div className="bg-green-200 p-4 rounded-xl">
               <p className="text-green-800 font-medium flex items-center justify-center">
@@ -50,7 +50,7 @@ export default function LandingPage() {
               <Sparkles className="mr-2 w-5 h-5" /> 지금 바로 등록하기
             </Button>
           </a>
-          <p className="mt-2 text-sm text-green-700">10분이면 등록 끝! 소확행에서 새로운 인연을 만나보세요 🌿</p>
+          <p className="mt-2 text-sm text-green-700">3분이면 등록 끝! 소확행에서 새로운 인연을 만나보세요 🌿</p>
         </div>
       </div>
     </div>
