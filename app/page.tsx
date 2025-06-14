@@ -17,7 +17,7 @@ export default function LandingPage() {
             <h2 className="text-2xl font-semibold text-green-600">🎉 첫 매칭 무료!</h2>
             <p className="text-green-700">(※ 매칭 후 카카오톡 교환 시에만 결제)</p>
             <ul className="text-left list-disc list-inside space-y-2">
-              <li><b>성비 철저 관리</b> + 얼굴/전신/명함 사진 통한 신원 인증</li>
+              <li><b>성비 철저 관리</b> + 얼굴 / 전신 / 명함 사진 통한 신원 인증</li>
               <li><b>매칭 확정 후 결제</b>로 불필요한 비용 부담 없음</li>
               <li><b>전문직 회원 다수</b>: 의사, 변호사, 대기업, 아나운서 등</li>
               <li><b>결혼정보회사보다 합리적</b> – 1회 매칭 2만원 → <b>이벤트! 최초 1회 무료!</b></li>
