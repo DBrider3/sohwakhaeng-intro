@@ -14,7 +14,7 @@ export default function LandingPage() {
         <p className="text-lg text-green-800">2025년 6월 한정 초특가 이벤트 진행 중!</p>
         <Card className="bg-white shadow-xl rounded-2xl border-0">
           <CardContent className="p-6 space-y-4">
-            <h2 className="text-2xl font-semibold text-green-600">🎉 첫 매칭 단 1,000원!</h2>
+            <h2 className="text-2xl font-semibold text-green-600">🎉 첫 매칭 무료!</h2>
             <p className="text-green-700">(※ 매칭 후 카카오톡 교환 시에만 결제)</p>
             <ul className="text-left list-disc list-inside space-y-2">
               <li><b>성비 철저 관리</b> + 얼굴/전신/명함 사진 통한 신원 인증</li>
