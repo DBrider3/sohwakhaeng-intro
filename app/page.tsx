@@ -20,7 +20,7 @@ export default function LandingPage() {
               <li><b>성비 철저 관리</b> + 얼굴/전신/명함 사진 통한 신원 인증</li>
               <li><b>매칭 확정 후 결제</b>로 불필요한 비용 부담 없음</li>
               <li><b>전문직 회원 다수</b>: 의사, 변호사, 대기업, 아나운서 등</li>
-              <li><b>결혼정보회사보다 합리적</b> – 1회 매칭 2만원 → <b>이벤트 1회 무료!</b></li>
+              <li><b>결혼정보회사보다 합리적</b> – 1회 매칭 2만원 → <b>이벤트! 최초 1회 무료!</b></li>
             </ul>
             <div className="bg-green-200 p-4 rounded-xl">
               <p className="text-green-800 font-medium flex items-center justify-center">
@@ -33,9 +33,10 @@ export default function LandingPage() {
         <div className="mt-10">
           <h3 className="text-xl font-semibold text-green-600 mb-2">📷 등록 전 준비물</h3>
           <ul className="text-green-800 space-y-1">
-            <li><CheckCircle className="inline w-4 h-4 text-green-600 mr-2" /> 본인 얼굴 사진 1장</li>
-            <li><CheckCircle className="inline w-4 h-4 text-green-600 mr-2" /> 전신 사진 1장</li>
+            <li><CheckCircle className="inline w-4 h-4 text-green-600 mr-2" /> 본인 얼굴 사진 2장 이상 (상대방이 직접 보고 결정하는 것이니 매력있는 사진으로 부탁드립니다)</li>
+            <li><CheckCircle className="inline w-4 h-4 text-green-600 mr-2" /> 전신 사진 2장 이상 (상대방이 직접 보고 결정하는 것이니 매력있는 사진으로 부탁드립니다)</li>
             <li><CheckCircle className="inline w-4 h-4 text-green-600 mr-2" /> 명함 사진 1장</li>
+            <li><CheckCircle className="inline w-4 h-4 text-green-600 mr-2" /> 등록 후에도 사진 수정 가능</li>
           </ul>
         </div>
 
