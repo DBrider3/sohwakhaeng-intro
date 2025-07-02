@@ -48,7 +48,7 @@ export default function LandingPage() {
         </div>
 
         <div className="mt-10">
-          <a href="https://forms.gle/dwxcGpjtgzNdYoF47" target="_blank" rel="noopener noreferrer">
+          <a href="https://m.site.naver.com/1JTHq" target="_blank" rel="noopener noreferrer">
             <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 text-lg rounded-xl">
               <Sparkles className="mr-2 w-5 h-5" /> 지금 바로 등록하기
             </Button>
