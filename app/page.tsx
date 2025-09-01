@@ -30,7 +30,7 @@ export default function LandingPage() {
           </p>
           <div className="inline-flex items-center bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-6 py-3 rounded-full font-bold text-lg shadow-lg">
             <Sparkles className="mr-2 w-5 h-5 animate-pulse" />
-            2025년 8월 초특가 이벤트!
+            2025년 9월 초특가 이벤트!
           </div>
         </div>
         <Card className="bg-white/80 backdrop-blur-sm shadow-2xl rounded-3xl border-0 overflow-hidden">
@@ -102,7 +102,7 @@ export default function LandingPage() {
             <div className="bg-gradient-to-r from-emerald-300 to-teal-300 p-6 rounded-2xl border-2 border-emerald-400 shadow-xl">
               <p className="text-emerald-950 font-extrabold text-xl flex items-center justify-center">
                 <Calendar className="w-7 h-7 mr-3 text-emerald-700" /> 
-                이벤트 기간: 2025년 8월 1일 ~ 8월 31일
+                이벤트 기간: 2025년 9월 1일 ~ 9월 30일
               </p>
             </div>
           </CardContent>
