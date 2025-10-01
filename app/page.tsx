@@ -30,7 +30,7 @@ export default function LandingPage() {
           </p>
           <div className="inline-flex items-center bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-6 py-3 rounded-full font-bold text-lg shadow-lg">
             <Sparkles className="mr-2 w-5 h-5 animate-pulse" />
-            2025년 9월 초특가 이벤트!
+            2025년 10월 무료 이벤트!
           </div>
         </div>
         <Card className="bg-white/80 backdrop-blur-sm shadow-2xl rounded-3xl border-0 overflow-hidden">
@@ -38,7 +38,7 @@ export default function LandingPage() {
             <div className="flex items-center justify-center space-x-2 mb-6">
               <Heart className="w-8 h-8 text-rose-500 animate-pulse" />
               <h2 className="text-3xl font-bold bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent">
-                첫 매칭 50% 할인!
+                첫 매칭 무료!
               </h2>
               <Heart className="w-8 h-8 text-rose-500 animate-pulse" />
             </div>
@@ -77,8 +77,8 @@ export default function LandingPage() {
               <div className="flex items-start space-x-3 p-4 bg-gradient-to-r from-emerald-50 to-teal-50 rounded-xl border border-emerald-100">
                 <Sparkles className="w-6 h-6 text-emerald-600 mt-1 flex-shrink-0" />
                 <div className="text-emerald-800">
-                  <span className="font-bold">결혼정보회사보다 합리적</span> – 1회 매칭 2만원 → 
-                  <span className="font-bold text-red-600 ml-1">이벤트! 최초 1회 50% 할인!</span>
+                  <span className="font-bold">결혼정보회사보다 합리적</span> – 1회 매칭 3만원 → 
+                  <span className="font-bold text-red-600 ml-1">이벤트! 최초 1회 무료!</span>
                 </div>
               </div>
               
@@ -93,8 +93,8 @@ export default function LandingPage() {
               <div className="flex items-start space-x-3 p-4 bg-gradient-to-r from-emerald-50 to-teal-50 rounded-xl border border-emerald-100">
                 <Users className="w-6 h-6 text-emerald-600 mt-1 flex-shrink-0" />
                 <div>
-                  <span className="font-bold text-emerald-800">최초 15건 프로필 제공!</span>
-                  <span className="text-emerald-700"> 이후 매주 1회, 2건 이상의 프로필 정기 제공</span>
+                  <span className="font-bold text-emerald-800">프로필 계속 제공!</span>
+                  <span className="text-emerald-700"> 좋은 인연 만날 때까지 쭉~</span>
                 </div>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function LandingPage() {
             <div className="bg-gradient-to-r from-emerald-300 to-teal-300 p-6 rounded-2xl border-2 border-emerald-400 shadow-xl">
               <p className="text-emerald-950 font-extrabold text-xl flex items-center justify-center">
                 <Calendar className="w-7 h-7 mr-3 text-emerald-700" /> 
-                이벤트 기간: 2025년 9월 1일 ~ 9월 30일
+                이벤트 기간: 2025년 10월 1일 ~ 10월 31일
               </p>
             </div>
           </CardContent>
